@@ -4,6 +4,7 @@ import Banner from './components/Banner'
 import Logo from './components/Logo'
 import Menu from './components/Menu';
 import SaibaMais from './components/SaibaMais';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Header></Header>
       <Banner showCompleteBanner={showCompleteBanner}></Banner> 
       <SaibaMais></SaibaMais>
+      <Footer></Footer>
     </div>
   );
 }
