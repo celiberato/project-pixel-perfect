@@ -1,0 +1,89 @@
+.banner {
+    top: 0px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1980px) {
+    .ferramentaria h1{
+        margin-left: 75%; 
+    }
+    
+    .ferramentaria p{
+        margin-left: 75%; 
+        padding-right: 50px;
+    }
+
+    .right-session{
+        background-color: red;
+        width: 80%;
+        height: 300px;
+    }
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .ferramentaria h1{
+        margin-left: 68%; 
+    }
+    
+    .ferramentaria p{
+        margin-left: 68%; 
+        padding-right: 50px;
+    }
+
+    .right-session{
+        background-color: red;
+        width: 80%;
+        height: 300px;
+    }
+
+}
+
+
+
+.ferramentaria h1{
+    position: relative; 
+    margin-left: 46rem; 
+    margin-top: -15rem; 
+    margin-bottom: 13rem;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.ferramentaria p{
+    position: relative; 
+    margin-left: 46rem; 
+    margin-top: -12.5rem; 
+    color: white;
+    font-size: 0.7rem;
+    margin-bottom: 13rem;
+}
+
+.ferramentaria{
+    visibility: collapse;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+
+    .ferramentaria h1{
+        font-size: 1.0rem;
+    }
+
+    .ferramentaria p{
+        font-size: 0.7rem;
+    }
+    
+    #banner img{
+        width: 100%;
+    }
+    
+    .container-fluid {
+        width: 100%;
+    }
+    
+
+    #container-saiba-mais{
+        width: 100%;
+        margin-top: -280px;
+    }
+}

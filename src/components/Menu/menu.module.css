@@ -1,0 +1,53 @@
+.menu {
+    color: black;
+}
+
+.menu__ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu__ul__li {
+    margin: auto;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.menu__ul__li__a {
+    padding: 0 0 0 0;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dc002d;
+    text-decoration: none;
+}
+
+.menu__ul__li__btn-fale-conosco {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+    .menu__ul {
+        margin-top: 50px;   
+        flex-direction: column;
+   }
+
+   .menu__ul__li__a {
+        flex-direction: column;
+        font-size: 0.7rem;
+        padding: 0;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 2000px) {
+    .menu__ul {
+        flex-direction: row;
+   }
+}
